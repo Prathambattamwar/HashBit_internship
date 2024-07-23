@@ -17,27 +17,31 @@ header .logo {
     font-size: 24px;
     font-weight: bold;
 }
+
 nav {
     background-color: #76adb4;
-    
+    height: 50px;
+
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
     margin: 0 15px;
+
 }
 
 nav ol li a {
     flex: auto;
     padding-left: 23px;
     text-decoration: none;
+    text-decoration-color: #333;
 }
 
 .container {
@@ -48,20 +52,22 @@ nav ol li a {
     width: 20%;
     padding: 20px;
     background-color: #fdfdfd;
+    
 }
 
 .sidebar ul {
     list-style-type: none;
     padding: 2px;
+    
 }
 
 .sidebar ul li {
-    
+
     margin-bottom: 10px;
 }
 
 .sidebar ul li a {
-  text-decoration: none;
+    text-decoration: none;
     color: #131318d7;
     padding: 10px;
     display: block;
@@ -70,24 +76,28 @@ nav ol li a {
 }
 
 .sidebar ul li a:hover {
-   
-  
+
+
     background-color: #dedefd;
 }
 
 .content {
-    width: 80%;
-    padding: 20px;
+    width: 53%;
+    height: fit-content;
+    padding: 9px;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 .box {
+
     margin-bottom: 20px;
     padding: 10px;
     margin-right: 20%;
     align-self: center;
-    border: 8px solid #9a9898;
+    border:  solid #9a9898;
     width: auto;
-    border-radius: 39px;
+    
 }
 
 .box img {

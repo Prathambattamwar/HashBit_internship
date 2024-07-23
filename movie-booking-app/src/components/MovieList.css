@@ -1,0 +1,45 @@
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.movie-item {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-item img {
+ width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-item:hover {
+  transform: scale(1.03);
+}
+
+.movie-item h2 {
+  font-size: 1.25rem;
+  margin: 10px;
+  text-decoration: none;
+}
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
